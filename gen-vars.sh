@@ -16,6 +16,7 @@ cat startup.templ | gomplate > startup
 chmod 755 startup
 
 cat build.templ | gomplate > build.sh
+chmod 755 build.sh
 
 cat docker-compose.templ | gomplate > docker-compose.yml
 
